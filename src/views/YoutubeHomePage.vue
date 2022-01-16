@@ -26,7 +26,7 @@ export default {
 
 <style>
 .home-container {
-    padding-top: 5vh;
+    padding-top: 1vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;

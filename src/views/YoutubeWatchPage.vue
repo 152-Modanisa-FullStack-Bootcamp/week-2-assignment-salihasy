@@ -1,7 +1,7 @@
 <template>
     <div class="watch-container"> 
         <span>
-            id of the video which i clicked on :
+            the id of the video i clicked on :
            <em> {{$route.query.id}} </em>
         </span>
      </div>

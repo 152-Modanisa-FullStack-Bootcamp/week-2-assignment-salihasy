@@ -1,34 +1,73 @@
-# Bootcamp Week 2 Assignment
+# YOUTUBE ASSİGNMENT
 
-There are 3 pages you need to design: main, favorite and watch page respectively. You need to use router for displaying the pages. When user clicks to the favorite button, you should
-use "bootcamp" as param.
 
-## Before you begin
+<br />
 
-Make sure that you installed all the node packages with `npm install` or `yarn install`
+## **TITLES**
 
-## Data source
+* [Description](#description)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Sources](#sources)
 
-For the assignment, you can get data required from the link below:
+<br />
 
-https://my-json-server.typicode.com/modanisa/bootcamp-video-db/videos
+## Description
 
-## Watch page
+<br />
 
-Watch page should display the id of video. You are not supposed to do any design for this page.
+Below is our homepage which shows all of the videos.
 
-## Home page
+![HomePage](src/assets/homePage.png)
 
-You need to design a homepage is seen in the picture below.
+<br />
 
-Do not make a responsive design.
+Below is our favorites page which shows the videos filtered by the favorite field. 
 
-![HomePage](./pictures/youtube-home.png)
+![FavoritesPage](src/assets/favoritesPage.png)
 
-## Favorite page
+<br />
 
-For the favorite page, You need to design a page as seen in the picture below.
 
-Favorite page should list the videos whose favorite field are set to true in the data.
+Below is our watch page which shows the id of the video i clicked on. 
 
-![HomePage](./pictures/favorites-page.png)
+![WatchPage](src/assets/watchPage.png)
+
+<br />
+
+## Technologies
+---
+Project is created with:
+* **Vue**
+* **Vuex**
+* **Axios**
+* **JAVASCRIPT**
+* **HTML5**
+* **CSS3**
+
+
+<br />
+
+## Setup And Run
+---
+Open it in chrome via terminal;
+
+
+```
+$ npm install
+$ npm run start
+```
+or 
+
+```
+$ yarn install
+$ yarn start
+```
+
+<br />
+
+## Sources
+---
+https://v3.vuejs.org/
+
+https://stackoverflow.com/questions/

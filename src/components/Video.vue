@@ -46,7 +46,7 @@ export default{
 .footer-of-video {
     display: flex;
     flex-direction: row;
-    margin: 10px 0 0 10px;
+    margin: 7px 0 0 10px;
 }
 
 .information {
@@ -58,8 +58,8 @@ export default{
 
 .own-image {
   vertical-align: middle;
-  width: 50px;
-  height: 50px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
 
 }
