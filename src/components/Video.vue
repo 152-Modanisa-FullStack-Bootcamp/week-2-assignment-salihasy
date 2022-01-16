@@ -25,9 +25,7 @@ export default{
             isHover:false
         }
     },
-    props: ["video"],
-    computed : {
-    }
+    props: ["video"]
 }
 </script>
 
