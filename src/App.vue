@@ -1,29 +1,19 @@
 <template>
   <div id="app">
         <Header> </Header>
-        <router-view :videoprops="videos"> </router-view>
+        <router-view> </router-view>
   </div>
 </template>
 
 <script>
 
-import axios from 'axios'
 import Header from './components/Header.vue'
+
 
 export default {
   name: 'App',
-  data() {
-      return {
-        videos : []
-      }
-  },
   components: {
     Header
-  },
-  async mounted() {
-         const response = await axios.get("https://my-json-server.typicode.com/modanisa/bootcamp-video-db/videos");
-         this.videos = response.data
-         console.log(this.videos)
   }
 }
 </script>

@@ -1,25 +1,24 @@
 <template>
     <div class="favorites-container">
-    <FavoriteVideos v-for="i in filteredVideos" :key="i.id" :favoriteVideo="i"> </FavoriteVideos>
+    <FavoriteVideos v-for="i in filteredFavoriteVideos" :key="i.id" :favoriteVideo="i"> </FavoriteVideos>
     </div>
 </template>
 
 <script>
 
 import FavoriteVideos from '../components/FavoriteVideos.vue'
+import {mapGetters} from 'vuex'
 
 export default {
     name: "YoutubeFavoritesPage",
     components : {
         FavoriteVideos
     },
-    props: ["videoprops"],
-    computed: {
-        filteredVideos() {
-            return this.videoprops.filter(video => video.favorite === true)
-        }
+    computed: mapGetters([
+    'filteredFavoriteVideos'
+    ]),
     }
-}
+
 </script>
 
 
